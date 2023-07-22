@@ -1,4 +1,4 @@
-import "./sidebar.css"
+import "./sidebar.css";
 import { MdRssFeed } from "react-icons/md";
 import { BsFillChatLeftTextFill } from "react-icons/bs";
 import { MdVideoLibrary } from "react-icons/md";
@@ -9,9 +9,6 @@ import { BiCalendarEvent } from "react-icons/bi";
 import { FaDiscourse } from "react-icons/fa";
 import { MdWork } from "react-icons/md";
 
-
-
-
 export default function Sidebar() {
   return (
     <div className="sidebar">
@@ -20,12 +17,10 @@ export default function Sidebar() {
           <li className="sidebarListIteam">
             <MdRssFeed className="sidebarIcon" />
             <span className="sidebarListIteamText">Feed</span>
-
           </li>
           <li className="sidebarListIteam">
             <BsFillChatLeftTextFill className="sidebarIcon" />
             <span className="sidebarListIteamText">BsFillChatLeftTextFill</span>
-
           </li>
           <li className="sidebarListIteam">
             <MdVideoLibrary className="sidebarIcon" />
@@ -67,63 +62,105 @@ export default function Sidebar() {
         <hr className="sidebarHr" />
         <ul className="sidebarFriendList">
           <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/images3.jpg" alt="" />
+            <img
+              className="sidebarFriendImg"
+              src="/assets/images3.jpg"
+              alt=""
+            />
             <span className="sidebarFriendName">upendra Bahadur Shahi </span>
           </li>
 
           <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/images3.jpg" alt="" />
+            <img
+              className="sidebarFriendImg"
+              src="/assets/images3.jpg"
+              alt=""
+            />
             <span className="sidebarFriendName">Kamal Bahadur Shahi </span>
           </li>
 
           <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/images3.jpg" alt="" />
+            <img
+              className="sidebarFriendImg"
+              src="/assets/images3.jpg"
+              alt=""
+            />
             <span className="sidebarFriendName">Tapendra Bahadur Shahi </span>
           </li>
 
           <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/images3.jpg" alt="" />
+            <img
+              className="sidebarFriendImg"
+              src="/assets/images3.jpg"
+              alt=""
+            />
             <span className="sidebarFriendName">Bhoj Bhul </span>
           </li>
 
           <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/images3.jpg" alt="" />
+            <img
+              className="sidebarFriendImg"
+              src="/assets/images3.jpg"
+              alt=""
+            />
             <span className="sidebarFriendName">Gita Bista </span>
           </li>
 
           <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/images3.jpg" alt="" />
+            <img
+              className="sidebarFriendImg"
+              src="/assets/images3.jpg"
+              alt=""
+            />
             <span className="sidebarFriendName">chet Bahadur Shahi </span>
           </li>
 
           <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/images3.jpg" alt="" />
+            <img
+              className="sidebarFriendImg"
+              src="/assets/images3.jpg"
+              alt=""
+            />
             <span className="sidebarFriendName">Rampura Kumari Shahi </span>
           </li>
 
           <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/images3.jpg" alt="" />
+            <img
+              className="sidebarFriendImg"
+              src="/assets/images3.jpg"
+              alt=""
+            />
             <span className="sidebarFriendName">Jun Parsad Rokaya </span>
           </li>
 
           <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/images3.jpg" alt="" />
+            <img
+              className="sidebarFriendImg"
+              src="/assets/images3.jpg"
+              alt=""
+            />
             <span className="sidebarFriendName">Puran Bahadur Shahi </span>
           </li>
 
           <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/images3.jpg" alt="" />
+            <img
+              className="sidebarFriendImg"
+              src="/assets/images3.jpg"
+              alt=""
+            />
             <span className="sidebarFriendName">Jagat Bahadur Shahi </span>
           </li>
 
           <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/images3.jpg" alt="" />
+            <img
+              className="sidebarFriendImg"
+              src="/assets/images3.jpg"
+              alt=""
+            />
             <span className="sidebarFriendName">Asmita shah </span>
           </li>
         </ul>
-
       </div>
-
     </div>
-  )
+  );
 }

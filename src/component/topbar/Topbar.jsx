@@ -1,12 +1,7 @@
-import "./topbar.css"
-
-import { BsSearch, BsFillPersonFill } from 'react-icons/bs';
-import { BsFillChatLeftTextFill } from 'react-icons/bs';
-import { IoMdNotifications } from 'react-icons/io';
-
-
-
-
+import "./topbar.css";
+import { BsSearch, BsFillPersonFill } from "react-icons/bs";
+import { BsFillChatLeftTextFill } from "react-icons/bs";
+import { IoMdNotifications } from "react-icons/io";
 
 // import {Search, Person} from "@material-ui/icons"
 export default function Topbar() {
@@ -18,11 +13,11 @@ export default function Topbar() {
       <div className="topbarcenter">
         <div className="searchbar">
           <BsSearch className="searchIcon" />
-          <input placeholder="Sarch for friend,post or video" className="searchinput" />
-
-
+          <input
+            placeholder="Sarch for friend,post or video"
+            className="searchinput"
+          />
         </div>
-
       </div>
       <div className="topbarRight">
         <div className="topbarLinks">
@@ -31,7 +26,6 @@ export default function Topbar() {
         </div>
 
         <div className="topbarIcons">
-
           <div className="topbarIconItem">
             <BsFillPersonFill />
             <span className="topbarIconBadge">1</span>
@@ -49,7 +43,6 @@ export default function Topbar() {
         </div>
         <img src="/assets/images2.jpg" alt="" className="topbarImage" />
       </div>
-
     </div>
-  )
+  );
 }
