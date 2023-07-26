@@ -61,6 +61,66 @@ export default function Post() {
           </div>
         </div>
 
+        <div className="postcenter">
+          <span className="postText">Hey! its my first post:</span>
+          <img className="postImg" src="assets/images3.jpg" alt="" />
+        </div>
+        <div className="postBottom">
+          <div className="postBottomLeft">
+            <img className="likeIcon" src="assets/heart.png" alt="" />
+            <img className="likeIcon" src="assets/like.png" alt="" />
+            <span className="postlikeCounter">32people like it</span>
+          </div>
+          <div className="postBottomRight">
+            <span className="postCommentText">9 Comments</span>
+          </div>
+        </div>
+
+        <div className="postcenter">
+          <span className="postText">Hey! its my first post:</span>
+          <img className="postImg" src="assets/images3.jpg" alt="" />
+        </div>
+        <div className="postBottom">
+          <div className="postBottomLeft">
+            <img className="likeIcon" src="assets/heart.png" alt="" />
+            <img className="likeIcon" src="assets/like.png" alt="" />
+            <span className="postlikeCounter">32people like it</span>
+          </div>
+          <div className="postBottomRight">
+            <span className="postCommentText">9 Comments</span>
+          </div>
+        </div>
+
+        <div className="postcenter">
+          <span className="postText">Hey! its my first post:</span>
+          <img className="postImg" src="assets/images3.jpg" alt="" />
+        </div>
+        <div className="postBottom">
+          <div className="postBottomLeft">
+            <img className="likeIcon" src="assets/heart.png" alt="" />
+            <img className="likeIcon" src="assets/like.png" alt="" />
+            <span className="postlikeCounter">32people like it</span>
+          </div>
+          <div className="postBottomRight">
+            <span className="postCommentText">9 Comments</span>
+          </div>
+        </div>
+
+        <div className="postcenter">
+          <span className="postText">Hey! its my first post:</span>
+          <img className="postImg" src="assets/images3.jpg" alt="" />
+        </div>
+        <div className="postBottom">
+          <div className="postBottomLeft">
+            <img className="likeIcon" src="assets/heart.png" alt="" />
+            <img className="likeIcon" src="assets/like.png" alt="" />
+            <span className="postlikeCounter">32people like it</span>
+          </div>
+          <div className="postBottomRight">
+            <span className="postCommentText">9 Comments</span>
+          </div>
+        </div>
+
         
         <div className="postcenter">
           <span className="postText">Hey! its my first post:</span>
@@ -77,24 +137,6 @@ export default function Post() {
           </div>
         </div>
 
-
-
-        <div className="postcenter">
-          <span className="postText">Hey! its my first post:</span>
-          <img className="postImg" src="assets/images3.jpg" alt="" />
-        </div>
-        <div className="postBottom">
-          <div className="postBottomLeft">
-            <img className="likeIcon" src="assets/heart.png" alt="" />
-            <img className="likeIcon" src="assets/like.png" alt="" />
-            <span className="postlikeCounter">32people like it</span>
-          </div>
-          <div className="postBottomRight">
-            <span className="postCommentText">9 Comments</span>
-          </div>
-        </div>
-
-
         
         <div className="postcenter">
           <span className="postText">Hey! its my first post:</span>
@@ -111,8 +153,7 @@ export default function Post() {
           </div>
         </div>
 
-
-
+        
         <div className="postcenter">
           <span className="postText">Hey! its my first post:</span>
           <img className="postImg" src="assets/images3.jpg" alt="" />
@@ -127,7 +168,6 @@ export default function Post() {
             <span className="postCommentText">9 Comments</span>
           </div>
         </div>
-
 
         <div className="postcenter">
           <span className="postText">Hey! its my first post:</span>
